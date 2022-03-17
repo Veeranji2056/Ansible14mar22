@@ -10,7 +10,7 @@
     - name: install tree
       apt:
         name: tree
-        state: present
+        stateeeeee: present
 
     - name: install wget
       apt:
