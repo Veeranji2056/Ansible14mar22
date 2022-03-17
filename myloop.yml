@@ -1,10 +1,10 @@
 ---
-- myhosts: 172.31.3.158
+- hosts: 172.31.3.158
   become: yes
   tasks:
     - name: install git,tree,wget
       apt:
-        name: "{{ item}}"
+        name: "{{ item }}"
         state: present
       loop:
         - git
